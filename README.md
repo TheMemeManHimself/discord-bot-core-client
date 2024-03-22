@@ -7,7 +7,7 @@ Core client for create-discord-bot.
 ## Getting started
 
 ```
-npm i discord-bot-core-client
+npm i core-client-node
 ```
 
 ## Example
