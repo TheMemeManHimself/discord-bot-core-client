@@ -1,5 +1,5 @@
-import { Client, ClientOptions } from "discord.js";
-import { CoreClient, CoreClientOptions } from "../src/index";
+const { Client, ClientOptions } = require("discord.js");
+const { CoreClient, CoreClientOptions } = require("../src/index");
 
 describe("CoreClient", () => {
   describe.each([
