@@ -1,12 +1,12 @@
-import fs from "fs";
-import path from "path";
-import {
+const fs = require( "node:fs");
+const path = require( "node:path");
+const {
   Client,
   ClientOptions,
   BitFieldResolvable,
   IntentsString,
   ClientEvents,
-} from "discord.js";
+} = require("discord.js");
 
 type IntentsResolvable = BitFieldResolvable<IntentsString, number>;
 
